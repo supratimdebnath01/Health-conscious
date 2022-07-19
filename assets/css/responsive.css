@@ -1,0 +1,198 @@
+@media (max-width: 1600px) {
+    .togglebar{display: none;}
+    .login{display: none;}
+}
+
+
+@media (max-width: 1440px) {
+   
+    .search-bar {width: 310px; margin-left: 20%;}
+    /* banner section  */
+    .banner-txt h1, h2 { font-size: 50px; }
+    .banner-txt h2 {font-size: 40px;}
+    .banner-section {height: 565px;}
+    .banner-txt {left: 30%;top: 10%;}
+    .leaf-1 {left: 88%; bottom: 12%;}
+}
+
+@media (min-width: 1280px) and (max-width: 1366px) {
+    .search-bar {margin-left: 15%;}
+    .banner-section {height: 535px;}
+    .featured-products {padding: 60px 0;}
+    .banner-txt {left: 20%; top: 5%;}
+    .leaf-1 {left: 90%; bottom: 13%; width: 115px;}
+    .leaf-2 {top: 50px; left: 2%; width: 90px;}
+    .category-width {width: 70%;margin: 0 auto;}
+    .white-box img {left: 20%;}
+    #vegetable {left: 22%;}
+    
+}
+
+@media (max-width: 1280px){
+    .search-bar {margin-left: 10%;}
+    .banner-section {height: 500px;}
+    .leaf-1 {left: 89%;bottom: 12%;width: 115px;}
+
+
+}
+@media (max-width: 1199.98px) {
+    .search-bar {margin-left: 0;}
+    .bottom-nav-item {display: none;}
+    .togglebar{display: block;}
+    .login{display: block;}
+    nav .collapse-content {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        padding: 20px;
+        display: block;
+        z-index: 11;
+        transform: translateX(-100%);
+        transition: .4s;
+    }
+    nav .collapse-content.active {transform: translateX(0);}
+    .nav-menu{
+        flex-direction: column; 
+        margin-top: 30px;
+        padding-right: 40px;
+    }
+    nav .nav-link {
+        margin: 12px 0;
+        padding: 0;
+    }
+    nav .close_nav {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        font-size: 25px;
+        cursor: pointer;
+        transition: .2s;
+        color: gray;
+    }
+    .banner-section {height: 400px;}
+    .banner-txt {top: -15%;}
+    .banner-txt h1 {font-size: 45px;}
+    .banner-txt h2{font-size: 35px;}
+    .leaf-2{width: 70px;}
+    .leaf-1 {width: 90px;}
+    .category-width {
+        width: 75%;
+        margin: 0 auto;
+    }
+    .discount-items { padding-bottom: 60px;}
+    .section-heading h2 {font-size: 40px;}
+    .featured-products {padding: 55px 0;}
+    .white-box img {left: 5%;}
+    .white-box h3 {font-size: 30px;}
+    .offer-text {font-size: 30px;width: 145px; bottom: 10%; }
+    .new-arrival {padding-bottom: 60px;}
+    .section-heading2 h2 {font-size: 40px;}
+    .section-heading2 {height: 750px;}
+    #lemon{width: 20%;}
+    #vegetable {left: 25%; width: 45%;}
+    #watermln {width: 15%;}
+    .left-heading h5 {font-size: 20px; }
+    .right-heading h5 {font-size: 20px;}
+    .best-products {padding: 105px 0 70px;}
+}
+
+@media (max-width: 991.98px) {
+
+    .banner-txt {left: 0%;}
+    .category-width { width: 100%;margin: 0 auto; }
+    .section-heading p {margin-top: 30px;}
+    .section-heading h2 {font-size: 35px;}
+    .featured-products {padding: 25px 0 55px;}
+    .discount-items {padding-bottom: 40px;}
+    .white-box h3 {font-size: 30px;}
+    .offer-text {font-size: 30px; width: 140px; bottom: -10%;}
+    .white-box img {left: 10%; top: 0;}
+    .best-products {padding: 85px 0 60px;}
+    .section-heading2 h2 {font-size: 35px; padding-bottom: 20px;}
+    .section-heading2 {height: 670px;}
+    #vegetable {padding-top: 20px;}
+    .new-arrival {padding-bottom: 45px;}
+    #watermln{width: 15%;}
+    .subscribe .form-c ,.subscribe .sub-btn { width: 110%; height: 40px;}
+    .footer-row-top {padding-bottom: 0;}
+    footer p {font-size: 12px;}
+    footer .links {font-size: 13px;}
+    .green-arrow {left: 92%;bottom: 20px;}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+@media (max-width: 800px){
+    .leaf-1 , .leaf-2{display: none;}
+    .banner-txt h1 {font-size: 40px;}
+    .banner-txt h2 {font-size: 30px;}
+    .banner-txt p {font-size: 11px;}
+    .banner-txt {left: 7%;top: -10%;width: 300px;}
+    .category {padding-top: 30px;}
+    .featured-products {padding: 20px 0 45px;}
+    .discount-items {padding-bottom: 20px;}
+    #lemon{display: none;}
+    #watermln{display: none;}
+    #vegetable {padding-top: 20px;}
+    .section-heading2 {height: 630px;}
+    .best-products {padding: 70px 0 50px;}
+    .green-arrow {left: 94%; bottom: 12px;font-size: 25px;}
+}
+@media (max-width: 767.98px) {
+        .login{display: none;}
+        .section-heading h2 {font-size: 30px;}
+        .featured-products { padding: 15px 0 50px;}
+        .offer-text { font-size: 25px; width: 120px; bottom: 10%;}
+        .watermelon { margin-top: 25px;}
+        .section-heading2 h2 {font-size: 30px; padding-bottom: 10px;}
+        .left-heading h5, .right-heading h5 {font-size: 16px;} 
+        .left-para, .right-para{font-size: 12px;}
+        .section-heading2 {height: 525px;}
+        #vegetable { padding-top: 20px; left: 23%; width: 50%;}
+        footer .links {line-height: normal;}
+        .contact-info{margin-top: 20px;}
+        .newsletter{margin-top: 20px;}
+        .subscribe .form-c, .subscribe .sub-btn {width: 90%;}
+        .section-title { margin-bottom: 15px;}
+        footer {padding: 50px 0 0;}
+        .green-arrow {bottom: 40px;}
+        
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+@media (max-width: 575.98px) {
+    .logo { margin-left: 25px;}
+    .search-form input { width: 50%;}
+    .banner-section {height: 300px;}
+    .banner-txt h1 {font-size: 35px; }
+    .banner-txt h2 {font-size: 25px;}
+    .banner-txt p {font-size: 10px;}
+    .banner-txt {left: 11%;top: -20%;}
+    .banner-btn {padding: 5px 15px;}
+    .bottom-banner {bottom: -1px;}
+    .category-width { width: 75%;}
+    .swiper-button1 {right: 5px; padding: 0;}
+    .swiper-button2 {left: 5px; padding: 0;}
+    .section-heading p {margin-top: 20px;}
+    .new-arrival {padding-bottom: 40px;}
+    .white-box img {left: 2%;}
+    #green-img { top: 1px;}
+    .section-heading2 {height: 480px;}
+    #vegetable { padding-top: 20px; left: 20%; width: 55%;}
+    .best-products {padding: 85px 0 50px;}
+    .left-para, .right-para {font-size: 11px;}
+    .footer-heading h3, .footer-heading p, .find-us {padding-left: 15px;}
+    .icons {padding-left: 10px;}
+    .subscribe .form-c, .subscribe .sub-btn {width: 75%;}
+    .terms {padding-right: 1px;}
+    .policy {padding-left: 3px;}
+    .stick {padding: 0 2px;}
+    .green-arrow {bottom: 20px;}
+}
